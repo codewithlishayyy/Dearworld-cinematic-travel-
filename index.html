@@ -1,0 +1,834 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DEARWORLD — A LOVE LETTER TO EVERYWHERE</title>
+
+    <meta name="description" content="dearworld is your little travel companion. Discover beautiful places, plan around your budget, and find journeys that feel like you.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.143.0/build/three.module.js",
+            "three/examples/jsm/": "https://unpkg.com/three@0.143.0/examples/jsm/"
+        }
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- CINEMATIC EARTH -->
+
+    <canvas class="planet-canvas" aria-hidden="true"></canvas>
+
+    <div class="page" id="top">
+
+
+        <!-- ========================= -->
+        <!-- HERO SECTION -->
+        <!-- ========================= -->
+
+        <header class="hero">
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav">
+
+                <a class="brand" href="#top">
+                    <span class="brand-mark">▲</span>
+                    dearworld.
+                </a>
+
+                <div class="nav-links">
+
+                    <a href="#features">Why dearworld?</a>
+
+                    <a href="#solutions">Explore</a>
+
+                    <a href="#cta">Plan a Trip</a>
+
+                    <a href="#footer">Our Story</a>
+
+                </div>
+
+                <a class="btn btn-ghost" href="#cta">
+                    Join the Journey
+                </a>
+
+            </nav>
+
+
+            <!-- HERO CONTENT -->
+
+            <div class="hero-inner">
+
+                <h1 class="hero-title"
+                    data-reveal
+                    style="--rd:60ms">
+
+                    Dear World,<br>
+                    <em>A love letter to everywhere</em>
+
+                </h1>
+
+
+                <p class="hero-sub"
+                   data-reveal
+                   style="--rd:180ms">
+
+                    Little budgets, big dreams, and a whole
+                    world waiting to be explored. Discover
+                    places that match your mood, your plans,
+                    and your kind of adventure.
+
+                </p>
+
+
+                <div class="hero-actions"
+                     data-reveal
+                     style="--rd:300ms">
+
+                    <a href="#features" class="btn btn-primary">
+
+                        Find My Happy Place
+
+                        <span aria-hidden="true">→</span>
+
+                    </a>
+
+
+                    <a href="#solutions" class="btn btn-outline">
+
+                        Take a Little Look
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- TRAVEL MOODS -->
+
+            <div class="logos"
+                 data-reveal
+                 style="--rd:420ms">
+
+                <div class="logos-label">
+
+                    For every mood, every mile, every memory
+
+                </div>
+
+
+                <div class="logos-row">
+
+                    <span class="logo">Slow Mornings</span>
+
+                    <span class="logo">Ocean Days</span>
+
+                    <span class="logo">Mountain Air</span>
+
+                    <span class="logo">City Lights</span>
+
+                    <span class="logo">Little Escapes</span>
+
+                    <span class="logo">Work & Wander</span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- ========================= -->
+        <!-- FEATURES SECTION -->
+        <!-- ========================= -->
+
+        <section class="section features" id="features">
+
+            <div class="section-head">
+
+                <span class="eyebrow" data-reveal>
+
+                    Made for the curious hearts
+
+                </span>
+
+
+                <h2 data-reveal style="--rd:80ms">
+
+                    The world is big.
+                    Planning shouldn't be.
+
+                </h2>
+
+
+                <p data-reveal style="--rd:160ms">
+
+                    We believe finding your next adventure
+                    should feel exciting, not exhausting.
+                    dearworld brings your travel dreams,
+                    budget, and little preferences together
+                    to make exploring feel a whole lot easier.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-grid">
+
+
+                <!-- FEATURE 1 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:0ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <rect x="3" y="3" width="6" height="6" rx="1"/>
+
+                            <rect x="15" y="15" width="6" height="6" rx="1"/>
+
+                            <path d="M6 9v3a3 3 0 0 0 3 3h3"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>Your Kind of Somewhere</h3>
+
+
+                    <p>
+
+                        Beaches, mountains, cozy little towns,
+                        or cities that never sleep. Discover
+                        destinations that feel just like you.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- FEATURE 2 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:90ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path d="M4 19V5M4 19h16M8 16v-4M13 16V8M18 16v-7"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>Dream Big, Spend Smart</h3>
+
+
+                    <p>
+
+                        Your dream trip doesn't need a
+                        dream-sized wallet. Explore travel
+                        ideas that fit your budget without
+                        missing out on the magic.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- FEATURE 3 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:180ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+
+                            <circle cx="9" cy="7" r="4"/>
+
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>Better Together (or Solo!)</h3>
+
+
+                    <p>
+
+                        A solo escape, a bestie adventure,
+                        a romantic getaway, or a family
+                        holiday. There's a little journey
+                        for everyone.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- FEATURE 4 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:270ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24">
+
+                            <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>Less Planning, More Living</h3>
+
+
+                    <p>
+
+                        Because your time belongs to
+                        sunsets, spontaneous adventures,
+                        and beautiful memories — not
+                        twenty open browser tabs.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- FEATURE 5 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:360ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/>
+
+                            <path d="m9 12 2 2 4-4"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>Work Trips, With a Twist</h3>
+
+
+                    <p>
+
+                        Meetings by day, exploring by evening.
+                        Discover business-trip ideas that
+                        balance productivity with a little
+                        adventure.
+
+                    </p>
+
+                </article>
+
+
+
+                <!-- FEATURE 6 -->
+
+                <article class="card"
+                         data-reveal
+                         style="--rd:450ms">
+
+                    <div class="card-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle cx="12" cy="12" r="10"/>
+
+                            <path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20Z"/>
+
+                        </svg>
+
+                    </div>
+
+
+                    <h3>A Whole World of Possibilities</h3>
+
+
+                    <p>
+
+                        From hidden gems to iconic
+                        destinations, there's always
+                        another beautiful corner of
+                        the world waiting for you.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- TRAVEL DISCOVERY SECTION -->
+        <!-- ========================= -->
+
+        <section class="section showcase" id="solutions">
+
+            <div class="showcase-grid">
+
+
+                <!-- LEFT CONTENT -->
+
+                <div class="showcase-copy">
+
+                    <span class="eyebrow" data-reveal>
+
+                        A little magic, just for you
+
+                    </span>
+
+
+                    <h2 data-reveal style="--rd:90ms">
+
+                        Tell us your vibe.
+                        We'll find your somewhere.
+
+                    </h2>
+
+
+                    <p data-reveal style="--rd:180ms">
+
+                        Craving salty air and sunny skies?
+                        Dreaming of mountain mornings?
+                        Or squeezing a little sightseeing
+                        into your next work trip?
+
+                        Start with your travel style,
+                        budget, and available time —
+                        and let the possibilities unfold.
+
+                    </p>
+
+
+                    <a href="#cta"
+                       class="btn btn-primary"
+                       data-reveal
+                       style="--rd:270ms">
+
+                        Let's Go Somewhere
+
+                        <span aria-hidden="true">→</span>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- TRAVEL DASHBOARD -->
+
+                <div class="dashboard"
+                     data-reveal
+                     style="--rd:160ms">
+
+
+                    <div class="dash-top">
+
+                        <strong>
+
+                            Your Travel Vibe · Preview
+
+                        </strong>
+
+
+                        <span class="dash-live">
+
+                            <i></i>
+
+                            Just for You
+
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- SAMPLE CHART -->
+
+                    <div class="dash-bars">
+
+                        <div class="dash-bar" style="--h:62%;--d:0ms"></div>
+
+                        <div class="dash-bar" style="--h:88%;--d:90ms"></div>
+
+                        <div class="dash-bar" style="--h:47%;--d:180ms"></div>
+
+                        <div class="dash-bar" style="--h:95%;--d:270ms"></div>
+
+                        <div class="dash-bar" style="--h:71%;--d:360ms"></div>
+
+                        <div class="dash-bar" style="--h:80%;--d:450ms"></div>
+
+                        <div class="dash-bar" style="--h:58%;--d:540ms"></div>
+
+                    </div>
+
+
+
+                    <!-- SAMPLE TRAVEL PREFERENCES -->
+
+                    <div class="dash-rows">
+
+
+                        <div class="dash-row">
+
+                            <span>Nature & Mountains</span>
+
+                            <div class="dash-track">
+
+                                <div class="dash-fill" style="--w:90%"></div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="dash-row">
+
+                            <span>Ocean Escapes</span>
+
+                            <div class="dash-track">
+
+                                <div class="dash-fill" style="--w:72%"></div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="dash-row">
+
+                            <span>City Adventures</span>
+
+                            <div class="dash-track">
+
+                                <div class="dash-fill" style="--w:48%"></div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="dash-row">
+
+                            <span>Cozy Getaways</span>
+
+                            <div class="dash-track">
+
+                                <div class="dash-fill" style="--w:34%"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HOW DEARWORLD WORKS -->
+
+            <div class="stats">
+
+
+                <div class="stat"
+                     data-reveal
+                     style="--rd:0ms">
+
+                    <div class="stat-value">01</div>
+
+                    <div class="stat-label">
+
+                        Tell us your travel mood
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="stat"
+                     data-reveal
+                     style="--rd:80ms">
+
+                    <div class="stat-value">02</div>
+
+                    <div class="stat-label">
+
+                        Pick your budget & dates
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="stat"
+                     data-reveal
+                     style="--rd:160ms">
+
+                    <div class="stat-value">03</div>
+
+                    <div class="stat-label">
+
+                        Find your kind of somewhere
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="stat"
+                     data-reveal
+                     style="--rd:240ms">
+
+                    <div class="stat-value">04</div>
+
+                    <div class="stat-label">
+
+                        Go make lovely memories
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ========================= -->
+        <!-- CALL TO ACTION -->
+        <!-- ========================= -->
+
+        <section class="section cta" id="cta">
+
+
+            <div class="cta-card">
+
+
+                <span class="eyebrow"
+                      data-reveal
+                      style="--rd:60ms">
+
+                    Psst... adventure is calling
+
+                </span>
+
+
+
+                <h2 data-reveal style="--rd:140ms">
+
+                    The world is waiting
+                    for your hello.
+
+                </h2>
+
+
+
+                <p data-reveal style="--rd:220ms">
+
+                    One day, you'll look back and be glad
+                    you went. Start dreaming up your next
+                    escape, one beautiful destination
+                    at a time.
+
+                </p>
+
+
+
+                <div class="hero-actions"
+                     data-reveal
+                     style="--rd:300ms">
+
+
+                    <a class="btn btn-primary" href="#features">
+
+                        Start My Little Adventure
+
+                        <span>→</span>
+
+                    </a>
+
+
+
+                    <a class="btn btn-outline" href="#solutions">
+
+                        Explore First
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ========================= -->
+            <!-- FOOTER -->
+            <!-- ========================= -->
+
+            <footer class="footer" id="footer">
+
+
+                <div class="footer-brand">
+
+                    <a class="brand" href="#top">
+
+                        <span class="brand-mark">▲</span>
+
+                        dearworld.
+
+                    </a>
+
+
+                    <p>
+
+                        A love letter to everywhere.<br>
+
+                        Made for the places you'll never forget.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="footer-cols">
+
+
+                    <!-- DISCOVER -->
+
+                    <div>
+
+                        <h4>Discover</h4>
+
+                        <a href="#features">Dream Destinations</a>
+
+                        <a href="#solutions">Travel Moods</a>
+
+                        <a href="#cta">Little Adventures</a>
+
+                    </div>
+
+
+
+                    <!-- PLAN -->
+
+                    <div>
+
+                        <h4>Plan</h4>
+
+                        <a href="#features">Budget-Friendly Trips</a>
+
+                        <a href="#solutions">Your Travel Style</a>
+
+                        <a href="#features">Work & Wander</a>
+
+                    </div>
+
+
+
+                    <!-- ABOUT -->
+
+                    <div>
+
+                        <h4>Dear World</h4>
+
+                        <a href="#top">Our Little Story</a>
+
+                        <a href="#features">Why dearworld?</a>
+
+                        <a href="#footer">Made With Love</a>
+
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+
+            <!-- COPYRIGHT -->
+
+            <p class="copyright">
+
+                © <span id="year"></span>
+                dearworld. — a love letter to everywhere.
+
+            </p>
+
+        </section>
+
+    </div>
+
+
+    <!-- KEEP EXISTING JAVASCRIPT -->
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
